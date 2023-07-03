@@ -1,0 +1,225 @@
+body{
+    background-color: #1D1D1D;
+    color:rgb(238, 238, 238);
+    height: 70vh;
+    overflow-x:hidden;
+}
+*{
+    font-family: 'Outfit','Inter', sans-serif;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+.home-body{
+    background-color: #2b2b2b;
+    display: flex;
+    justify-content: space-around;
+    height: inherit;
+    align-items: center;
+    margin:0rem 3rem 0rem 3rem;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;;
+}
+#programmer-img{
+    width: 500px;
+}
+
+#home-name{
+    margin-top: 7rem;
+    text-align: center;
+
+}
+.navbar{
+    display: flex;
+    height: 10vh;
+    justify-content: space-between;
+}
+.navbar h2{
+    margin-left: 2rem;
+    margin-top:1rem;
+}
+.navbar-links{
+    
+    margin-right: 3rem;
+    display: flex;
+    gap: 2rem;
+    list-style-type: none;
+    font-size: 1rem;
+    justify-content: space-around;
+}
+#personalimg{
+
+    border-radius: 50%;
+}
+.aboutme-body{
+    margin: 3rem;
+    display: flex;
+    justify-content:space-around;
+
+}
+.text{
+    padding: 3rem 5rem 5rem 0rem;
+    background-color: #2b2b2b;
+    margin-right: 7rem;
+    border-radius: 15px;
+    font-size: 1rem;
+    line-height: 2;
+    text-align: justify;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;;
+}
+.aboutme-body p{
+    margin-left: 3rem;
+}
+footer{
+    margin-top:4rem;
+    background-color: #DA0037;
+    width: 99vw;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+    text-align: center; 
+    box-shadow: 0 50vh 0 50vh #DA0037;
+    align-content: center;
+}
+.linkedin{
+    margin-left:.5rem;
+}
+.active{
+    border-radius: 15px;
+    padding: .5rem;
+    padding-inline: 1rem;
+    background-color: #DA0037;
+}
+
+.education-body{
+    background-color: #2b2b2b;
+    margin: 1rem 3rem 1rem 2rem;
+    padding: 1rem 0rem 3rem 3rem;
+    border-radius: 15px;
+    line-height: 2;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;;
+}
+.Company-details{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.job-description{
+    margin:3rem 3rem 0rem 2rem;
+    background-color: #2b2b2b;
+    padding:.5rem 2rem 1.5rem 2rem;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;;
+}
+
+.role{
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+.Company-details *{
+    padding:0px;
+    margin:0px;
+}
+
+.job-description *{
+    padding:0px;
+    margin:0px;
+}
+.role *{
+    color :lightgrey;
+    letter-spacing: 2px;
+
+    padding:0rem;
+    margin:.4rem 0 0.25rem 0;
+}
+
+.role > p {
+    font-size:0.75rem;
+}
+
+.responsible{   
+    line-height: 1.8rem;
+    margin-top: 1rem;
+}
+
+.project{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:3rem 3rem 3rem 2rem;
+    background-color: #2b2b2b;
+    padding:.5rem 2rem 1.5rem 2rem;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;;
+}
+.project-details{
+    display: flex;
+    justify-content: space-between;
+}
+
+.project-logo{
+    margin-right: 4rem;
+}
+.icon{
+
+    display: none;
+    border-color: rgb(238, 238, 238);
+}
+.Company-details >h3:first-child{
+    font-weight: 500;
+}
+@media screen and (max-width: 850px) {
+    
+    .navbar-links{
+        display: none;
+    }
+    
+    .icon{
+        display: flex;
+        margin-right: 3rem;   
+    }
+    .active{
+        display: inline-block;
+        margin-top:.4rem;
+
+    }
+    .margin{
+        margin-left: 1rem;
+    }
+    
+}
+@media screen and (max-width:1030px) {
+    .aboutme-body{
+        width: 100%;
+        flex-direction: column-reverse;
+        align-items: center;
+        gap:3rem;
+    }
+    #personalimg{
+        align-self:center;
+        margin-right: 5rem;
+    }
+    .project-logo{
+        margin-right: 2rem;
+        margin-left: 1rem;
+    }
+
+}
+.color{
+    background-color: #2b2b2b;
+}
+.email{
+    margin-top:1rem;
+}
+.responsible ul{
+    margin-left: 1.2rem;
+}
+.flex-end{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 1.5rem;
+}
